@@ -1,4 +1,4 @@
 # DsSelfPrep
 
 
-Day1 : 
+Day1 : Selection Sort, Bubble Sort
