@@ -22,7 +22,7 @@ public class FindDuplicateNumber {
         int slowPtr = nums[0], fastPtr = nums[0];
         do{
             slowPtr = nums[slowPtr];
-            fastPtr = nums[fastPtr];
+            fastPtr = nums[nums[fastPtr]];
         }while(slowPtr != fastPtr);
 
         fastPtr = nums[0];
